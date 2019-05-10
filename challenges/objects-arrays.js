@@ -153,7 +153,7 @@ let largerPopulation = [];
 largerPopulation = zooAnimals.filter(animal => animal.population >= 5);
 console.log(largerPopulation);
 
-/* Request 4: .reduce() 
+/* Request 4: .reduce()
 
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
@@ -163,9 +163,8 @@ populationTotal = zooAnimals.reduce((sumPop, currPop) => sumPop + currPop.popula
 console.log(populationTotal);
 
 
-/* 
+/*
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
